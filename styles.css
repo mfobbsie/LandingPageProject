@@ -11,6 +11,7 @@ body {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  flex-wrap: none;
 }
 
 .nav-links {
@@ -35,7 +36,6 @@ body {
   text-align: center;
 }
 .hero {
-  background-color: #4ef2e2;
   padding: 20px;
   text-align: center;
   image-rendering: pixelated;
@@ -55,4 +55,12 @@ body {
 }
 h2 {
   text-align: center;
+}
+
+.hero-section {
+  background-color: #4ef2e2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
 }
